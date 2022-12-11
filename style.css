@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main {
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    width:100%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options button {
+    text-transform: capitalize;
+    font-size:24px;
+    padding:10px 20px;
+    cursor: pointer;
+    background-color: rgb(56, 69, 247);
+    border: none;
+    color:#ffffff;
+    outline: none;
+}
+
+.container {
+    width:1200px;
+    height:620px;
+    margin:50px;
+    border: 1px solid rgb(56, 69, 247);
+    display: grid;
+}
+
+.container div:hover {
+    background-color:#000;
+}
